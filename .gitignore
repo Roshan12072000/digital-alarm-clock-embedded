@@ -1,0 +1,44 @@
+# ================================
+
+# MPLAB X IDE - Git Ignore File
+
+# ================================
+
+# Build output folders
+
+build/
+dist/
+
+# MPLAB project private files
+
+nbproject/private/
+
+# MPLAB auto-generated makefiles
+
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+
+# Object files
+
+*.o
+
+# Executables / Firmware outputs
+
+*.elf
+*.hex
+*.cof
+*.map
+
+# Debug / log files
+
+*.d
+*.log
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# VS Code settings (if present)
+
+.vscode/
